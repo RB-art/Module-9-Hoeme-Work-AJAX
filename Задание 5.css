@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn{
+    width: 15em;
+    height: 2em;
+    background-color: green;
+    flood-color: whitesmoke;
+}
+
+.input{
+    margin-bottom: 10px;
+    width: 14em;
+    height: 2em;
+    background-color: lightgrey
+}
+
+.result {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    margin-top: 3em;
+    font-size: 2em;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 200px;
+    margin: 20px;
+  }
+  
+  .card-image {
+    display: block;
+    width: 200px;
+    height: 150px;
+  }
